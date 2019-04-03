@@ -1,6 +1,10 @@
 package dao;
 
+import vo.UserVO;
+
+import java.util.List;
+
 public interface UserDao {
-    public String selectUserAll() throws Exception;
+    public List<UserVO> selectUserAll() throws Exception;
 
 }

@@ -1,5 +1,9 @@
 package service;
 
+import vo.UserVO;
+
+import java.util.List;
+
 public interface UserService {
-    public String selectUserAll() throws Exception;
+    public List<UserVO> selectUserAll() throws Exception;
 }
